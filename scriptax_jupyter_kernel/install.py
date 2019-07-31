@@ -7,7 +7,7 @@ from jupyter_client.kernelspec import KernelSpecManager
 from IPython.utils.tempdir import TemporaryDirectory
 
 kernel_json = {
-    "argv": [sys.executable, "-m", "scriptax-runtime", "{connection_file}"],
+    "argv": [sys.executable, "-m", "scriptax_jupyter_kernel", "-f", "{connection_file}"],
     "display_name": "Scriptax",
     "language": "text",
 }
