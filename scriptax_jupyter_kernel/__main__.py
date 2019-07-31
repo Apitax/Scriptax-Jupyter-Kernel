@@ -1,4 +1,4 @@
 from ipykernel.kernelapp import IPKernelApp
-from . import EchoKernel
+from . import ScriptaxKernel
 
-IPKernelApp.launch_instance(kernel_class=EchoKernel)
+IPKernelApp.launch_instance(kernel_class=ScriptaxKernel)

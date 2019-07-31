@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup(
     name='scriptax-jupyter-kernel',
     packages=find_packages(),  # this must be the same as the name above
-    version='0.1.0',
+    version='0.1.1',
     description='Scriptax Jupyter kernel',
     long_description=long_description,
     long_description_content_type="text/markdown",
